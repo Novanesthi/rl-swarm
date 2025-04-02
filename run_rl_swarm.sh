@@ -64,7 +64,7 @@ if [ "$CONNECT_TO_TESTNET" = "True" ]; then
 
     SERVER_PID=$!  # Store the process ID
     sleep 5
-    open http://localhost:3000
+    # open http://localhost:3000
     cd ..
 
     # Wait until modal-login/temp-data/userData.json exists
